@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+h2, h3, h4, a, p {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold 400;
+  font-size: 40px, 18px, 16px;
+}
+
+:root {
+  --menu-hover: #1abb9c;
+  --color: #a8a8a8;
+  --pelentesque: #9d99bf;
+  --bg: #efefef;
+  --low-color: #6c6c6c;
+  --twitter: #a79574;
+  --nav-bg: #dee4e2;
+  --nav-color: #4e4e4e;
+  --p-color: #5c5c5c;
+  --p1-color: #bbbbbb;
+  --1color: #b4b4b4;
+}
+.container {
+  padding: 0 0;
+}
+/* ============navbar part start============== */
+.nav-link {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--nav-color);
+  font-family: 'Roboto Condensed', sans-serif;
+  transition: .5s;
+}
+.nav-link:hover {
+  color: var(--menu-hover);
+}
+.navbar-brand {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: var(--nav-color);
+  margin-right: 0;
+}
+.navbar-brand:hover {
+  color: var(--nav-color);
+}
+.navbar-expand-lg {
+  background-color: var(--nav-bg);
+  padding: 12px 0;
+}
+/* ============navbar part end============== */
+
+/* ============hero part start============== */
+.hero {
+  background: url(../photos/hero-bg.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-con {
+  margin: 150px 0;
+}
+.hero-con h2 {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  color: #f3f3f3;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+.hero-con h3 {
+  font-size: 27px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  color: var(--color);
+  padding-bottom: 25px;
+  margin-bottom: 0;
+}
+.hero-con button {
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 27px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* ============hero part end============== */
+
+/* ============about part start============== */
+.about-main-con {
+  margin: 60px 0;
+}
+.fa-lightbulb:before {
+  content: "\f0eb";
+  padding: 15px 21px;
+  background: var(--pelentesque);
+  border-radius: 50%;
+  font-size: 30px;
+}
+.about-con h4 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  color: var(--nav-color);
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+.about-con p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px;
+  color: var(--nav-color);
+  padding-bottom: 50px;
+  margin-bottom: 0;
+}
+/* ============about part end============== */
+
+/* ============work part start============== */
+.col-4 {
+  padding: 0 0;
+}
+.work-head h5 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: var(--nav-color);
+}
+.text-tittle {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  color: var(--nav-color);
+}
+.pb-xl-3 {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: var(--p1-color);
+}
+.text:last-child {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px;
+  color: var(--p-color);
+}
+/* ============work part end============== */
+
+/* ============dbl-cot part start============== */
+.dbl {
+  background: var(--bg);
+}
+.dbl-con {
+  padding: 50px 0;
+}
+.dbl-detel {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  line-height: 25px;
+  color: var(--1color);
+}
+/* ============dbl-cot part end============== */
+
+/* ============contact part start============== */
+.contact {
+  background-color: var(--nav-color);
+}
+.contact-header h4 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #6c6c6c;
+  padding-bottom: 12px;
+  margin-bottom: 0;
+}
+.contact-con p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #cacaca;
+  padding-bottom: 12px;
+  margin-bottom: 0;
+}
+.contact-con i {
+  color: #a79574;
+}
+.contact-con {
+  padding-bottom: 35px;
+}
+/* ============contact part end============== */
+
+/* ============footer part start============== */
+footer {
+  font-size: 16px;
+  padding: 15px 0;
+}
+/* ============footer part end============== */
